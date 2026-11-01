@@ -37,7 +37,7 @@ Full-Stack-Project-/
 │   ├── package-lock.json                          # Root dependency lockfile
 │   └── README.md                                  # In-depth HotelPro technical documentation
 ├── Full Stack Project Documention/                # Master Project Documentation
-│   └── HotelPro_Project_Documentation .pdf        # Comprehensive project architecture & specification PDF
+│   └── HotelPro_Project_Documentation.pdf         # Comprehensive project architecture & specification PDF
 └── phase Wise Documentation/                      # Phase-Wise Project Lifecycle Documentation
     ├── Ideation Phase/                            # Brainstorming, Problem Statements & Empathy Maps
     ├── requirement analysis/                      # Data Flow Diagrams, Tech Stack & Solution Requirements
