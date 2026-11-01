@@ -1,0 +1,40 @@
+{
+  "name": "hotelpro",
+  "version": "1.0.0",
+  "description": "HotelPro — Premium Boutique Hotel Booking & Management System",
+  "scripts": {
+    "dev": "concurrently --names \"server,client\" -c \"green.bold,cyan.bold\" \"npm run server\" \"npm run client\"",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev:backend": "npm --prefix server run dev",
+    "dev:frontend": "npm --prefix client run dev",
+    "start": "npm --prefix server start",
+    "build": "npm --prefix client run build",
+    "test": "npm run test:server && npm run test:client",
+    "test:server": "npm --prefix server test",
+    "test:client": "npm --prefix client test",
+    "test:backend": "npm --prefix server test",
+    "test:frontend": "npm --prefix client test",
+    "seed": "npm --prefix server run seed",
+    "migrate": "npm --prefix server run migrate",
+    "package:source": "node scripts/packageSource.js",
+    "archive": "node scripts/packageSource.js",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "mern",
+    "hotel-management",
+    "boutique-hotel",
+    "luxury-hospitality",
+    "booking-system",
+    "react",
+    "express"
+  ],
+  "author": "HotelPro Design & Engineering Team",
+  "license": "ISC"
+}

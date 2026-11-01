@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E251E"/>
+      <stop offset="50%" stop-color="#173F35"/>
+      <stop offset="100%" stop-color="#081410"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#D4AF6B" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#D4AF6B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <rect width="100%" height="100%" fill="url(#goldGlow)"/>
+  <g stroke="#D4AF6B" stroke-width="1.5" opacity="0.4" fill="none">
+    <circle cx="600" cy="380" r="140"/>
+    <circle cx="600" cy="380" r="160" stroke-dasharray="4 6"/>
+    <rect x="420" y="200" width="360" height="360" rx="8"/>
+    <polygon points="600,220 620,260 660,260 630,285 640,325 600,300 560,325 570,285 540,260 580,260" fill="#D4AF6B" opacity="0.6"/>
+  </g>
+  <text x="600" y="420" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="600" fill="#F8F6F0" text-anchor="middle" letter-spacing="4">HOTELPRO ATELIER</text>
+  <text x="600" y="460" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600" fill="#D4AF6B" text-anchor="middle" letter-spacing="6">LUXURY BOUTIQUE SANCTUARY</text>
+  <text x="600" y="500" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="400" fill="#A8B4A5" text-anchor="middle" letter-spacing="3">SLIDE 4</text>
+</svg>

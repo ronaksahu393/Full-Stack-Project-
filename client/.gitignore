@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Always keep example configuration template
+!**/.env.example
+
+# Build output
+dist/
+build/
+.vite/
+
+# Credentials & Certificates
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+
+# Logs & Coverage
+coverage/
+*.log
